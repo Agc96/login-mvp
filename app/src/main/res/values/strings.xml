@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Login MVC</string>
+    <!--
+        Abreviaturas:
+        - lyt: Layouts
+        - txt: Textos (TextView)
+          - "<activityName>_txt_title" (Título de la barra superior)
+        - lbl: Labels (TextView)
+        - ipt: Inputs (EditText)
+        - btn: Botones (Button)
+        - msg: Mensajes (Toast)
+        - dlg: Cuadros de diálogo (AlertDialog)
+          - "<activityName>_dlg_<dialogName>_title" (Título de la alerta)
+          - "<activityName>_dlg_<dialogName>_msg" (Mensaje de la alerta)
+    -->
+
+    <!-- Inicio de sesión -->
+    <string name="login_txt_title">Inicio de sesión</string>
+    <string name="login_ipt_username">Nombre de usuario</string>
+    <string name="login_ipt_password">Contraseña</string>
+    <string name="login_btn_submit">Ingresar</string>
+    <string name="login_msg_username_empty">Ingrese su nombre de usuario.</string>
+    <string name="login_msg_password_empty">Ingrese su contraseña.</string>
+    <string name="login_msg_loading">Iniciando sesión…</string>
+    <string name="login_dlg_offline_title">Iniciar sesión sin conexión</string>
+    <string name="login_dlg_offline_msg">No se pudo conectarse a Internet. ¿Desea iniciar sesión
+    sin conexión?\nDebe haber iniciado sesión anteriormente para utilizar esta opción.</string>
+    <string name="login_dlg_error_title">Error al iniciar sesión</string>
+    <string name="login_dlg_error_msg_not_found">No se pudo iniciar sesión. Asegúrese que haya
+    escrito correctamente su nombre de usuario y contraseña.</string>
+
+    <!-- Pantalla de bienvenida -->
+    <string name="home_txt_title">Pantalla de bienvenida</string>
+    <string name="home_lbl_names">Nombres y apellidos</string>
+    <string name="home_lbl_email">Correo electrónico</string>
+    <string name="home_btn_logout">Cerrar sesión</string>
+
+    <!-- Mensajes de conexión al API REST -->
+    <string name="api_dlg_http_msg">Ocurrió un error desconocido.\nCódigo de error: HTTP %d</string>
+    <string name="api_dlg_service_msg">El servicio otorgó un error.\nCódigo de error: %d</string>
+    <string name="api_dlg_empty_msg">El servicio no otorgó respuesta.</string>
+</resources>
