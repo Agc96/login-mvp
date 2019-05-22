@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login MVC</string>
+    <string name="app_name">Login MVP</string>
     <!--
         Abreviaturas:
         - lyt: Layouts

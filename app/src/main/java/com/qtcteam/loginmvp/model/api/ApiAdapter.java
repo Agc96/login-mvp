@@ -1,4 +1,4 @@
-package com.qtcteam.loginmvc.model.api;
+package com.qtcteam.loginmvp.model.api;
 
 import java.util.concurrent.TimeUnit;
 

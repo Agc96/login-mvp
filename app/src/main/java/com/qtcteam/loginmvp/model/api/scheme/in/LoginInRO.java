@@ -1,4 +1,4 @@
-package com.qtcteam.loginmvc.model.api.scheme.in;
+package com.qtcteam.loginmvp.model.api.scheme.in;
 
 import com.google.gson.annotations.SerializedName;
 

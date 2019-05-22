@@ -1,4 +1,4 @@
-package com.qtcteam.loginmvc.controller;
+package com.qtcteam.loginmvp.view;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.qtcteam.loginmvc.R;
+import com.qtcteam.loginmvp.R;
 
 public class HomeActivity extends AppCompatActivity {
 
-    public static final String TAG = "LOGINMVC_ACT_HOME";
+    private static final String TAG = "LoginMVP_Act_Home";
     private TextView mNames;
     private TextView mEmail;
 

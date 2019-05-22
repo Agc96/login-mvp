@@ -1,4 +1,4 @@
-package com.qtcteam.loginmvc;
+package com.qtcteam.loginmvp;
 
 import org.junit.Test;
 

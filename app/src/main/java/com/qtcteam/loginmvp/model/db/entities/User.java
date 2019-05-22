@@ -1,4 +1,4 @@
-package com.qtcteam.loginmvc.model.db.entities;
+package com.qtcteam.loginmvp.model.db.entities;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
